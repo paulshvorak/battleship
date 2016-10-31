@@ -1,0 +1,84 @@
+/**
+ *
+ *   C O M M O N    STYLES
+ *
+ */
+
+ * {
+ 	margin: 0;
+ 	padding: 0;
+ 	box-sizing: border-box;
+ }
+
+BODY {
+	font-family: 'Oswald', sans-serif;
+	min-width: 900px;
+}
+
+/**
+ *
+ *    F I E L D    STYLES
+ *
+ */
+
+
+.wrap {
+	max-width: 800px;
+	margin: 100px auto 0;
+	display: flex;
+	justify-content: center;
+}
+
+.cell {
+	width: 50px;
+	height: 50px;
+	background-color: #8FD8D8;
+	transition: ease .25s;
+	text-align: center;
+	font-size: 14px;
+}
+
+.cell:hover {
+	background-color: #6cc;
+	cursor: pointer;
+}
+
+.cell-hit {
+	width: 50px;
+	height: 50px;
+	transition: ease .25s;
+	text-align: center;
+	font-size: 14px;
+	background-color: tomato;
+}
+
+.cell-miss {
+	width: 50px;
+	height: 50px;
+	transition: ease .25s;
+	text-align: center;
+	font-size: 14px;
+	background-color: yellow;
+}
+
+/**
+ *
+ *     C O N T R O L    STYLES
+ *
+ */
+
+
+
+.btn {
+	text-decoration: none;
+	padding: 5px 10px;
+	border: 2px solid tomato;
+	color: #444;
+	transition: ease .25s;
+}
+
+.btn:hover {
+	background-color: tomato;
+	color: #fff;
+	cursor: pointer;
+}
